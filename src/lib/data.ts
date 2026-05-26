@@ -1,0 +1,286 @@
+export const personalInfo = {
+  name: 'Yamini Kandrekula',
+  title: 'Senior AI Full Stack Engineer',
+  headline: 'Building AI Systems, Serverless Architectures & Scalable Full-Stack Applications',
+  subheadline: '6+ years designing production-grade AI pipelines, RAG systems, AWS serverless architectures, and event-driven full-stack applications.',
+  email: 'yaminikandrekula66@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/yaminik1',
+  github: 'https://github.com/yaminik1',
+  location: 'Greater Hyderabad Area, India',
+  resumeUrl: 'https://drive.google.com/file/d/1jWM9aOe59cCFs7q3gGLwLb2lkCuuuMa9/view?usp=drive_link',
+  availableForWork: true,
+}
+
+export const achievements = [
+  { value: 60, suffix: '%', label: 'Scalability Improvement', description: 'Event-driven distributed systems' },
+  { value: 45, suffix: '%', label: 'Infrastructure Cost Reduction', description: 'AWS serverless migration' },
+  { value: 50, suffix: '%', label: 'Manual Effort Reduced', description: 'Multi-agent AI automation' },
+  { value: 6, suffix: '+', label: 'Years Experience', description: 'Production engineering' },
+]
+
+export const techStack = {
+  Frontend: [
+    { name: 'React.js', level: 95 },
+    { name: 'Next.js', level: 88 },
+    { name: 'TypeScript', level: 92 },
+    { name: 'TailwindCSS', level: 85 },
+    { name: 'SCSS', level: 82 },
+    { name: 'React Hooks', level: 93 },
+  ],
+  Backend: [
+    { name: 'Node.js', level: 95 },
+    { name: 'Express.js', level: 90 },
+    { name: 'REST APIs', level: 95 },
+    { name: 'GraphQL', level: 78 },
+    { name: 'Python', level: 80 },
+  ],
+  AI: [
+    { name: 'OpenAI API', level: 90 },
+    { name: 'LangChain', level: 85 },
+    { name: 'RAG Pipelines', level: 88 },
+    { name: 'Prompt Engineering', level: 92 },
+    { name: 'Embeddings', level: 85 },
+    { name: 'Vector Databases', level: 82 },
+    { name: 'Agentic AI', level: 80 },
+  ],
+  'Cloud & AWS': [
+    { name: 'AWS Lambda', level: 90 },
+    { name: 'EventBridge', level: 87 },
+    { name: 'S3', level: 92 },
+    { name: 'Firehose', level: 85 },
+    { name: 'Serverless', level: 88 },
+  ],
+  Automation: [
+    { name: 'n8n', level: 82 },
+    { name: 'Webhooks', level: 88 },
+    { name: 'Workflow Automation', level: 85 },
+  ],
+  Database: [
+    { name: 'MongoDB', level: 88 },
+    { name: 'SQL', level: 82 },
+    { name: 'Vector DBs', level: 80 },
+  ],
+}
+
+export const projects = [
+  {
+    id: 1,
+    title: 'Multi-Agent AI System for Job Requisition Automation',
+    tagline: 'LangChain • RAG • Workday Integration • LLM Orchestration',
+    description: 'Designed and implemented a multi-agent AI system enabling dynamic data collection and structured content generation. Built RAG pipelines with embeddings and vector search, engineered LLM-driven workflows integrated with Workday, and implemented prompt optimization and context management for domain alignment.',
+    problem: 'HR and recruiting teams relied on manual, error-prone job requisition workflows. Structured content generation was slow, inconsistent, and disconnected from downstream platforms like Workday.',
+    solution: 'Designed and implemented a multi-agent AI system enabling dynamic data collection and structured content generation. Built RAG pipelines with embeddings and vector search, engineered LLM-driven workflows integrated with Workday, and implemented prompt optimization and context management for domain alignment.',
+    architecture: 'Data Sources → Ingestion Agent → Embedding & Vector Store → Retrieval Agent → LLM Reasoning → Workday Integration → Structured Output',
+    techStack: ['OpenAI', 'LangChain', 'RAG', 'Embeddings', 'Vector DB', 'Node.js', 'Python', 'Workday API'],
+    impact: [
+      'Multi-agent architecture enabling dynamic data collection and structured JD generation',
+      'RAG pipelines with embeddings and vector search to reduce hallucinations',
+      'LLM-driven workflows integrated with Workday for downstream automation',
+      'Prompt optimization and context management for improved output quality',
+    ],
+    color: '#00d4ff',
+    category: 'AI / LLM',
+    featured: true,
+    githubUrl: '#',
+    demoUrl: '#',
+    caseStudyUrl: '#',
+    caseStudyId: 'job-requisition-rag',
+  },
+  {
+    id: 2,
+    title: 'AWS Serverless Event Processing System',
+    tagline: 'Cloud-Native • EventBridge • Lambda • Firehose',
+    description: 'End-to-end serverless event pipeline on AWS handling high-throughput data ingestion, real-time processing, and analytics storage with 45% infrastructure cost reduction.',
+    problem: 'Legacy monolithic data pipelines had high operational overhead, scaling bottlenecks, and unpredictable costs under variable load.',
+    solution: 'Re-architected to fully serverless event-driven design using AWS native services — eliminating idle compute costs and enabling infinite horizontal scale.',
+    architecture: 'EventBridge → Lambda Functions → Firehose → S3 → Analytics Layer',
+    techStack: ['AWS Lambda', 'EventBridge', 'S3', 'Firehose', 'Node.js', 'TypeScript', 'Python'],
+    impact: [
+      '~45% infrastructure cost reduction via serverless migration',
+      'Scalable ingestion pipeline handling variable throughput',
+      'Rate limiting and caching for downstream protection',
+      'Decoupled, event-driven design enabling independent deployments',
+    ],
+    color: '#00ff88',
+    category: 'AWS / Cloud',
+    featured: true,
+    githubUrl: '#',
+    demoUrl: '#',
+    caseStudyUrl: '#',
+    caseStudyId: 'aws-serverless',
+  },
+  {
+    id: 3,
+    title: 'AI Workflow Automation Platform',
+    tagline: 'n8n • WhatsApp • CRM • LLM Responses',
+    description: 'End-to-end automation platform connecting WhatsApp, CRM systems, and LLM-powered chatbot responses through n8n workflow orchestration.',
+    problem: 'Sales and support teams spent 60%+ of time on repetitive lead qualification and CRM data entry, creating bottlenecks and missed follow-ups.',
+    solution: 'Built n8n workflows connecting WhatsApp Business API, CRM webhooks, and OpenAI to automate lead capture, qualification, and intelligent responses.',
+    architecture: 'WhatsApp API → n8n Workflow → LLM Classification → CRM Sync → Lead Scoring → Notification',
+    techStack: ['n8n', 'OpenAI', 'WhatsApp API', 'Node.js', 'Webhooks', 'CRM APIs', 'TypeScript'],
+    impact: [
+      '50%+ manual effort eliminated through intelligent automation',
+      'Real-time CRM sync on lead qualification',
+      'LLM-powered responses with context awareness',
+      'Lead tracking and scoring pipeline',
+    ],
+    color: '#7c3aed',
+    category: 'Automation',
+    featured: false,
+    githubUrl: '#',
+    demoUrl: '#',
+    caseStudyUrl: '#',
+    caseStudyId: 'ai-automation',
+  },
+  {
+    id: 4,
+    title: 'Full Stack AI SaaS Dashboard',
+    tagline: 'React • Node.js • RAG Assistant • RBAC',
+    description: 'Production-grade SaaS dashboard with JWT authentication, role-based access control, embedded RAG assistant, analytics, and admin management.',
+    problem: 'Enterprise clients needed a unified dashboard for managing AI workflows with secure multi-role access and an intelligent assistant for data queries.',
+    solution: 'Built full-stack application with React frontend, Node.js/Express backend, JWT + RBAC auth, MongoDB, and an embedded RAG chatbot for contextual data queries.',
+    architecture: 'React → REST API → Node.js/Express → MongoDB + Vector Store → RAG Assistant → Admin Layer',
+    techStack: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'JWT', 'RBAC', 'OpenAI', 'RAG', 'GraphQL'],
+    impact: [
+      'Secure multi-role authentication with RBAC authorization',
+      'Embedded RAG assistant for contextual data queries',
+      'Real-time analytics and reporting dashboard',
+      'Admin management with full audit trail',
+    ],
+    color: '#ff6b35',
+    category: 'Full Stack',
+    featured: false,
+    githubUrl: '#',
+    demoUrl: '#',
+    caseStudyUrl: '#',
+    caseStudyId: 'full-stack-saas',
+  },
+]
+
+export const experience = [
+  {
+    company: 'Applaud',
+    role: 'Senior Software Engineer',
+    period: 'Nov 2024 – Present',
+    location: 'Hyderabad, India',
+    type: 'Current',
+    color: '#00d4ff',
+    highlights: [
+      "Designed and implemented a multi-agent AI system for job requisition automation, enabling dynamic data collection and structured content generation",
+      "Built RAG pipelines using embeddings and vector search to enhance response accuracy and reduce hallucinations",
+      "Engineered LLM-driven workflows integrating retrieval systems with downstream platforms (Workday)",
+      "Implemented prompt optimization and context management strategies to improve output quality and domain alignment",
+      "Integrated AI workflows with AWS serverless architecture (Lambda, EventBridge, S3) for scalable, asynchronous processing",
+      "Designed low-latency APIs supporting real-time agent interactions, reducing response time by 30–40%",
+      "Developed data pipelines for structured and unstructured data to support AI-driven workflows"
+    ],
+    tech: ['AWS Lambda', 'EventBridge', 'S3', 'Firehose', 'Node.js', 'TypeScript', 'OpenAI', 'Python', 'Workday'],
+  },
+  {
+    company: 'LTIMindtree',
+    role: 'Senior Software Engineer',
+    period: 'Jun 2021 – Oct 2024',
+    location: 'Hyderabad, India',
+    type: 'Past',
+    color: '#00ff88',
+    highlights: [
+      'Led development of scalable full-stack applications with AI/LLM-based features using React, Node.js, TypeScript',
+      'Designed modular REST APIs backed by SQL and vector databases',
+      'Contributed to AI agent-based workflows using LangChain to optimize orchestration',
+      'Optimized frontend performance using code-splitting and lazy loading',
+      'Mentored junior developers and conducted code reviews',
+    ],
+    tech: ['React', 'Node.js', 'TypeScript', 'LangChain', 'Vector DB', 'SQL', 'LLM APIs'],
+  },
+  {
+    company: 'Cognizant',
+    role: 'Program Analyst',
+    period: 'Dec 2019 – Jun 2021',
+    location: 'Hyderabad, India',
+    type: 'Past',
+    color: '#7c3aed',
+    highlights: [
+      'Designed and developed full-stack applications using React, Node.js, and MongoDB',
+      'Built scalable RESTful APIs supporting business-critical workflows',
+      'Implemented JWT authentication and role-based access control',
+      'Improved API response times through query optimization',
+    ],
+    tech: ['React', 'Node.js', 'MongoDB', 'JWT', 'REST APIs', 'Agile'],
+  },
+  {
+    company: 'log.os GmbH',
+    role: 'Software Engineer',
+    period: 'Mar 2019 – Sep 2019',
+    location: 'Vizag, India • Remote',
+    type: 'Past',
+    color: '#ff6b35',
+    highlights: [
+      'Built responsive web applications using React and SCSS frameworks',
+      'Developed REST APIs using Node.js and Express',
+      'Integrated MongoDB for data persistence and optimized queries',
+    ],
+    tech: ['React', 'SCSS', 'Node.js', 'Express', 'MongoDB'],
+  },
+]
+
+export const philosophy = [
+  {
+    icon: '⚡',
+    title: 'Scalability First',
+    body: 'Every architectural decision is evaluated for scale. Event-driven, decoupled systems that can grow without re-architecture — not solutions that work today and break tomorrow.',
+  },
+  {
+    icon: '🧠',
+    title: 'AI Reliability',
+    body: 'LLMs are powerful but unreliable without guardrails. Hallucination reduction through RAG grounding, evaluation frameworks, and prompt engineering are non-negotiable in production AI.',
+  },
+  {
+    icon: '☁️',
+    title: 'Cloud Native Thinking',
+    body: 'Serverless-first. Build for elasticity, pay for what you use. AWS Lambda + EventBridge patterns enable architectures that scale to zero and back — no idle overhead.',
+  },
+  {
+    icon: '🔧',
+    title: 'Clean Architecture',
+    body: 'Modular, testable, readable code. REST APIs that are self-documenting. React components with clear boundaries. TypeScript everywhere. Code that the next engineer can understand.',
+  },
+  {
+    icon: '🤖',
+    title: 'Automation Mindset',
+    body: 'If a human is doing the same thing twice, automate it. n8n workflow orchestration, event-based triggers, and intelligent pipelines eliminate toil and free engineers for real problems.',
+  },
+  {
+    icon: '📐',
+    title: 'Engineering Tradeoffs',
+    body: 'No perfect solution — only well-understood tradeoffs. Choosing between consistency and availability, latency and throughput, complexity and flexibility is the real work of engineering.',
+  },
+]
+
+export const caseStudies = [
+  {
+    title: 'Building a Multi-Agent AI System for Job Requisition Automation',
+    project: 'Agentic RAG • Workday Integration',
+    sections: [
+      {
+        heading: 'The Problem',
+        content: 'Manual job requisition workflows were slow and error-prone, with no structured generation or downstream platform integration.',
+      },
+      {
+        heading: 'Constraints',
+        content: 'Workday API had strict schema requirements — outputs had to be structured exactly. LLMs alone produced hallucinated or generic JD content without grounding. Latency budget required retrieval + generation under 3 seconds.',
+      },
+      {
+        heading: 'Architecture Decisions',
+        content: 'Chose multi-agent design so ingestion, retrieval, reasoning, and Workday sync agents could be tested and scaled independently. Used chunked embeddings with metadata filtering for domain-specific precision retrieval. Prompt templates were structured with explicit role, context, and output schema to reduce drift.',
+      },
+      {
+        heading: 'Key Tradeoffs',
+        content: 'Multi-agent adds orchestration complexity but enables independent upgrades per agent. Vector search adds latency but cuts hallucination rate significantly. Strict prompt templates reduce flexibility but dramatically improve output consistency for structured JD fields.',
+      },
+      {
+        heading: 'Results',
+        content: 'Hallucination rate reduced via retrieval grounding. Sub-3s end-to-end execution target met. Workday integration enabled fully automated requisition creation. Reusable RAG pipeline adopted across other HR workflows.',
+      },
+    ],
+  },
+]
