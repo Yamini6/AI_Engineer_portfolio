@@ -7,7 +7,7 @@ export const personalInfo = {
   linkedin: 'https://www.linkedin.com/in/yaminik1',
   github: 'https://github.com/yaminik1',
   location: 'Greater Hyderabad Area, India',
-  resumeUrl: 'https://drive.google.com/file/d/1jWM9aOe59cCFs7q3gGLwLb2lkCuuuMa9/view?usp=drive_link',
+  resumeUrl: '/Yamini%20Kandrekula_AI_Engineer.pdf',
   availableForWork: true,
 }
 
